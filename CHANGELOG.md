@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.3...v0.1.4) (2021-01-31)
+
+
+### Bug Fixes
+
+* allow RegexExp wrapping ([4dfacbe](https://github.com/kwangure/eslint-config-svelte/commit/4dfacbe02a99ba8f2fda9973361a4ca476e5f4a9))
+
 ### [0.1.3](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.2...v0.1.3) (2021-01-31)
 
 
