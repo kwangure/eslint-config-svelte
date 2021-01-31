@@ -1,5 +1,3 @@
-/* eslint no-magic-numbers: off */
-
 // See https://eslint.org/docs/rules/#possible-errors
 const possibleErrors = {
     "no-template-curly-in-string": "error",
@@ -28,12 +26,6 @@ const bestPractices = {
     "no-invalid-this": "error",
     "no-iterator": "error",
     "no-loop-func": "error",
-    "no-magic-numbers": ["error", {
-        detectObjects: true,
-        ignoreArrayIndexes: true,
-        ignoreDefaultValues: true,
-        ignore: [0],
-    }],
     "no-multi-spaces": "error",
     "no-new-wrappers": "error",
     "no-octal-escape": "error",
