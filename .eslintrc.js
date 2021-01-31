@@ -44,7 +44,9 @@ const bestPractices = {
     "no-void": "error",
     "prefer-named-capture-group": "error",
     "prefer-promise-reject-errors": "error",
-    "prefer-regex-literals": "error",
+    "prefer-regex-literals": ["error", {
+        disallowRedundantWrapping: true,
+    }],
     "radix": ["error", "as-needed"],
     "require-await": "error",
     "require-unicode-regexp": "error",
