@@ -1,2 +1,9 @@
 # eslint-config-svelte
-An opinionated config for Svelte projects
+An opinionated ESLint config for Svelte projects.
+
+## Usage
+
+```javascript
+// .eslintrc.js
+module.exports = require("@kwangure/eslint-config-svelte");
+```

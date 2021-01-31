@@ -1,0 +1,28 @@
+{
+  "name": "@kwangure/eslint-config-svelte",
+  "version": "0.1.0",
+  "description": "An opinionated ESLint config for Svelte projects",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "release": "standard-version -a",
+    "publish": "git push --follow-tags origin master"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "standard-version": "^9.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwangure/eslint-config-svelte.git"
+  },
+  "keywords": [],
+  "author": "Kafungo Wangure",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kwangure/eslint-config-svelte/issues"
+  },
+  "homepage": "https://github.com/kwangure/eslint-config-svelte#readme"
+}
