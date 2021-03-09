@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.6](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.5...v0.1.6) (2021-03-09)
+
+
+### Bug Fixes
+
+* use babel parser & change line length ([b10c572](https://github.com/kwangure/eslint-config-svelte/commit/b10c57245ecf4a2ce0f318903dea438506036ee3))
+
 ### [0.1.5](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.4...v0.1.5) (2021-01-31)
 
 
