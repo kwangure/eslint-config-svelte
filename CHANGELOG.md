@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.6...v0.1.7) (2021-03-09)
+
+
+### Bug Fixes
+
+* include babel plugin ([a8f3db7](https://github.com/kwangure/eslint-config-svelte/commit/a8f3db724aa4d9f488a12fc5cc55bda7ddcf1fc9))
+
 ### [0.1.6](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.5...v0.1.6) (2021-03-09)
 
 
