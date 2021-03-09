@@ -220,6 +220,7 @@ module.exports = {
     },
     plugins: [
         "svelte3",
+        "@babel",
     ],
     extends: [
         "eslint:recommended",
