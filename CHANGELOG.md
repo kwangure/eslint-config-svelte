@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.10](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.9...v0.1.10) (2021-03-11)
+
+
+### Bug Fixes
+
+* dedupe @babel/types ([0f5f458](https://github.com/kwangure/eslint-config-svelte/commit/0f5f4585eacfa2fbd2ad02b9ce742c17cbbf4635))
+
 ### [0.1.9](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.8...v0.1.9) (2021-03-09)
 
 ### [0.1.8](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.7...v0.1.8) (2021-03-09)
