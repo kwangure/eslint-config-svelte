@@ -24,7 +24,7 @@
     "type": "git",
     "url": "git+https://github.com/kwangure/eslint-config-svelte.git"
   },
-  "keywords": [],
+  "keywords": ["eslint", "config", "eslintconfig"],
   "author": "Kafungo Wangure",
   "license": "MIT",
   "bugs": {
