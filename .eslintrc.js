@@ -1,5 +1,6 @@
 // See https://eslint.org/docs/rules/#possible-errors
 const possibleErrors = {
+    "no-constant-condition": "off",
     "no-template-curly-in-string": "error",
     "no-useless-backreference": "error",
     "require-atomic-updates": "error",
