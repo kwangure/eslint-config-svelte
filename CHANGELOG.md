@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.11](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.10...v0.1.11) (2021-03-21)
+
+
+### Features
+
+* remove constant condition ([9c024d3](https://github.com/kwangure/eslint-config-svelte/commit/9c024d35e29c1fdf56f66322ed3d05866c8c6ed4))
+* support add node.js support ([d92192b](https://github.com/kwangure/eslint-config-svelte/commit/d92192b9aba3d907c420d2a7d0cf6079f53a8d8e))
+
 ### [0.1.10](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.9...v0.1.10) (2021-03-11)
 
 
