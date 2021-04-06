@@ -31,7 +31,6 @@ const bestPractices = {
     "no-new-wrappers": "error",
     "no-octal-escape": "error",
     "no-proto": "error",
-    "no-return-assign": ["error", "always"],
     "no-return-await": "error",
     "no-script-url": "error",
     "no-self-compare": "error",
@@ -50,7 +49,6 @@ const bestPractices = {
     }],
     "radix": ["error", "as-needed"],
     "require-await": "error",
-    "require-unicode-regexp": "error",
     "wrap-iife": "error",
     "yoda": "error",
 };
@@ -187,7 +185,7 @@ const es6 = {
     "no-useless-constructor": "error",
     "no-useless-rename": "error",
     "no-var": "error",
-    "object-shorthand": ["error", "consistent"],
+    "object-shorthand": ["error", "always"],
     "prefer-const": ["error", {
         destructuring: "all",
         ignoreReadBeforeAssign: false,
