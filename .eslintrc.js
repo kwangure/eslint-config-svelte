@@ -42,7 +42,6 @@ const bestPractices = {
     "no-useless-concat": "error",
     "no-useless-return": "error",
     "no-void": "error",
-    "prefer-named-capture-group": "error",
     "prefer-promise-reject-errors": "error",
     "prefer-regex-literals": ["error", {
         disallowRedundantWrapping: true,
