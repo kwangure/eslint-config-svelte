@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.12](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.11...v0.1.12) (2021-06-22)
+
+
+### Features
+
+* remove rules I no longer like :) ([f947464](https://github.com/kwangure/eslint-config-svelte/commit/f947464f03fadc4c3849d1c9919c9f43df9b5375))
+
+
+### Bug Fixes
+
+* depend on peer dependency eslint ([3358550](https://github.com/kwangure/eslint-config-svelte/commit/335855086c6f2027c0bc941094a87f68e5713c7b))
+
 ### [0.1.11](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.10...v0.1.11) (2021-03-21)
 
 
