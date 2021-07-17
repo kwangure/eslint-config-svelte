@@ -122,6 +122,8 @@ const codeStyle = {
     "linebreak-style": "error",
     "max-len": ["error", {
         ignoreComments: true,
+        ignoreRegExpLiterals: true,
+        ignoreTemplateLiterals: true,
     }],
     "max-params": ["error", 3],
     "multiline-ternary": ["error", "always-multiline"],
