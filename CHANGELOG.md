@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.13](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.12...v0.1.13) (2021-07-17)
+
+
+### Features
+
+* do not prefer named capture group ([f5aae9a](https://github.com/kwangure/eslint-config-svelte/commit/f5aae9acac9eec45c8c6da2a0225f1c17a2e45c5))
+* ignore RegExp and template literals for `max-len` ([a818fb2](https://github.com/kwangure/eslint-config-svelte/commit/a818fb267881039d22743847ce6fb274bd6d685f))
+
 ### [0.1.12](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.11...v0.1.12) (2021-06-22)
 
 
