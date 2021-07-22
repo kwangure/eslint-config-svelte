@@ -69,7 +69,6 @@ const variables = {
             message: "Do not commit fdescribe. Use describe instead.",
         },
     ],
-    "no-undef-init": "error",
     "no-unused-vars": [
         "error",
         {
