@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.15](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.14...v0.1.15) (2021-07-22)
+
+
+### Features
+
+* allow undefined intialization ([873fd0d](https://github.com/kwangure/eslint-config-svelte/commit/873fd0d609a97ed056929a7718faacee07181500))
+
 ### [0.1.14](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.14-rc.0...v0.1.14) (2021-07-19)
 
 ### [0.1.14-rc.0](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.13...v0.1.14-rc.0) (2021-07-19)
