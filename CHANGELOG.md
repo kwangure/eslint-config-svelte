@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.16](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.15...v0.1.16) (2021-07-27)
+
+
+### Features
+
+* ignore long strings ([cc44e5b](https://github.com/kwangure/eslint-config-svelte/commit/cc44e5b015e4a8cd458521f7eaecfd30e28619ec))
+
 ### [0.1.15](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.14...v0.1.15) (2021-07-22)
 
 
