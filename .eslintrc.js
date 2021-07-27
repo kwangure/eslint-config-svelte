@@ -123,6 +123,7 @@ const codeStyle = {
         ignoreComments: true,
         ignoreRegExpLiterals: true,
         ignoreTemplateLiterals: true,
+        ignoreStrings: true,
     }],
     "max-params": ["error", 3],
     "multiline-ternary": ["error", "always-multiline"],
