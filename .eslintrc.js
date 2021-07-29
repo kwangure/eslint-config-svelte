@@ -92,7 +92,6 @@ const codeStyle = {
     }],
     "block-spacing": "error",
     "brace-style": ["error", "1tbs"],
-    "camelcase": "error",
     "comma-dangle": ["error", "always-multiline"],
     "comma-spacing": ["error", {
         before: false,
