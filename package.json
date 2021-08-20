@@ -1,6 +1,6 @@
 {
   "name": "@kwangure/eslint-config-svelte",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "description": "An opinionated ESLint config for Svelte projects",
   "main": ".eslintrc.js",
   "scripts": {

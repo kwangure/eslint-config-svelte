@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.18](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.17...v0.1.18) (2021-08-20)
+
+
+### Features
+
+* add typescript support ([1565092](https://github.com/kwangure/eslint-config-svelte/commit/1565092aa36072ddcb2aee88b175e3c15e6f7e7a))
+* change function paren "multiline" to "consistent" ([b312de9](https://github.com/kwangure/eslint-config-svelte/commit/b312de94a9975f73d5beecf5f0a67d2f8e3464e4))
+
 ### [0.1.17](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.16...v0.1.17) (2021-07-29)
 
 
