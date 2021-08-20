@@ -106,7 +106,7 @@ const codeStyle = {
         allowArrowFunctions: true,
     }],
     "function-call-argument-newline": ["error", "consistent"],
-    "function-paren-newline": ["error", "multiline"],
+    "function-paren-newline": ["error", "consistent"],
     "id-denylist": ["error", "data", "err", "e", "cb", "callback"],
     "implicit-arrow-linebreak": ["error", "beside"],
     "indent": ["error", 4, {
