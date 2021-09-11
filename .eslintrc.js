@@ -253,7 +253,14 @@ module.exports = {
                 es2017: true,
                 node: true,
             },
-            plugins: ["@typescript-eslint"],
+            plugins: [
+                "@typescript-eslint",
+                "typescript-sort-keys",
+            ],
+            rules: {
+                "typescript-sort-keys/interface": "error",
+                "typescript-sort-keys/string-enum": "error",
+            },
         },
     ],
     rules: {
