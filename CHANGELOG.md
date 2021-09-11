@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.19](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.18...v0.1.19) (2021-09-11)
+
+
+### Features
+
+* sort typescript keys ([b8ee806](https://github.com/kwangure/eslint-config-svelte/commit/b8ee80609f9f12c2687f12a891283d8c74c017d6))
+
 ### [0.1.18](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.17...v0.1.18) (2021-08-20)
 
 
