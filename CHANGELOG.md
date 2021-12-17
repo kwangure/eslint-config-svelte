@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.21](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.19...v0.1.21) (2021-12-17)
+
+
+### Features
+
+* support eslint 8 ([40789c7](https://github.com/kwangure/eslint-config-svelte/commit/40789c7ab68566175a62751714ede6b582d27afd))
+
 ### [0.1.20](https://github.com/kwangure/eslint-config-svelte/compare/v0.1.19...v0.1.20) (2021-12-17)
 
 
