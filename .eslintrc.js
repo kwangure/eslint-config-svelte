@@ -109,12 +109,12 @@ const codeStyle = {
     "function-paren-newline": ["error", "consistent"],
     "id-denylist": ["error", "data", "err", "e", "cb", "callback"],
     "implicit-arrow-linebreak": ["error", "beside"],
-    "indent": ["error", 4, {
+    "indent": ["error", "tab", {
         SwitchCase: 1,
         VariableDeclarator: "first",
         offsetTernaryExpressions: true,
     }],
-    "jsx-quotes": ["error", "prefer-double"],
+    "jsx-quotes": ["error", "prefer-single"],
     "key-spacing": "error",
     "keyword-spacing": "error",
     "linebreak-style": "error",
@@ -151,7 +151,7 @@ const codeStyle = {
     "operator-linebreak": ["error", "before"],
     "prefer-exponentiation-operator": "error",
     "quote-props": ["error", "consistent-as-needed"],
-    "quotes": ["error", "double"],
+    "quotes": ["error", "single"],
     "semi": ["error", "always"],
     "semi-style": ["error", "last"],
     "space-before-blocks": "error",
