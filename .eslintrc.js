@@ -208,61 +208,26 @@ const pluginImport = {
 };
 
 module.exports = {
-    parser: "@babel/eslint-parser",
     parserOptions: {
-        requireConfigFile: false,
-        sourceType: "module",
-    },
+		sourceType: 'module',
+		ecmaVersion: 2020
+	},
     env: {
-        es6: true,
-        browser: true,
-        node: true,
-    },
-    plugins: [
-        "svelte3",
-        "@babel",
-    ],
+		browser: true,
+		es2017: true,
+		node: true
+	},
+    plugins: ["svelte3"],
     extends: [
         "eslint:recommended",
         "plugin:import/errors",
         "plugin:import/warnings",
     ],
     ignorePatterns: ["*.css"],
-    settings: {
-        "svelte3/typescript": () => require("typescript"),
-    },
-    overrides: [
-        {
-            files: ["*.svelte"],
-            processor: "svelte3/svelte3",
-        },
-        {
-            files: ["*.ts"],
-            extends: [
-                "plugin:@typescript-eslint/eslint-recommended",
-                "plugin:@typescript-eslint/recommended",
-                "plugin:import/typescript",
-            ],
-            parser: "@typescript-eslint/parser",
-            parserOptions: {
-                sourceType: "module",
-                ecmaVersion: 2019,
-            },
-            env: {
-                browser: true,
-                es2017: true,
-                node: true,
-            },
-            plugins: [
-                "@typescript-eslint",
-                "typescript-sort-keys",
-            ],
-            rules: {
-                "typescript-sort-keys/interface": "error",
-                "typescript-sort-keys/string-enum": "error",
-            },
-        },
-    ],
+    overrides: [{
+        files: ["*.svelte"],
+        processor: "svelte3/svelte3",
+    }],
     rules: {
         ...possibleErrors,
         ...bestPractices,

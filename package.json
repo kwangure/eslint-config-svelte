@@ -3,19 +3,9 @@
   "version": "0.1.21",
   "description": "An opinionated ESLint config for Svelte projects",
   "main": ".eslintrc.js",
-  "scripts": {
-    "release-candidate": "standard-version -a --prerelease rc && npm publish --tag rc && git push --follow-tags origin master",
-    "release": "standard-version -a && npm publish && git push --follow-tags origin master"
-  },
   "dependencies": {
-    "@babel/core": "^7.16.5",
-    "@babel/eslint-parser": "^7.16.5",
-    "@babel/eslint-plugin": "^7.16.5",
-    "@babel/preset-env": "^7.16.5",
-    "@typescript-eslint/eslint-plugin": "^5.7.0",
     "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-svelte3": "^3.2.1",
-    "eslint-plugin-typescript-sort-keys": "^2.1.0"
+    "eslint-plugin-svelte3": "^3.2.1"
   },
   "devDependencies": {
     "standard-version": "^9.3.1"
