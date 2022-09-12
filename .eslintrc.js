@@ -217,7 +217,7 @@ module.exports = {
 		es2017: true,
 		node: true,
 	},
-	plugins: ['svelte3'],
+	plugins: ['import', 'svelte3'],
 	extends: [
 		'eslint:recommended',
 		'plugin:import/errors',
