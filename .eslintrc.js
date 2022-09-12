@@ -223,6 +223,22 @@ module.exports = {
 		'plugin:import/errors',
 		'plugin:import/warnings',
 	],
+	settings: {
+		'import/resolver': {
+			alias: {
+				map: [
+					// escape `$` to work around eslint's Regex matching
+					['\\$app', './.svelte-kit/runtime/app/'],
+					['\\$lib', './src/lib/'],
+				],
+				extensions: ['.js', '.svelte', '.json'],
+			},
+			node: {
+				extensions: ['.js'],
+				moduleDirectory: ['node_modules', './'],
+			},
+		},
+	},
 	ignorePatterns: ['*.css'],
 	overrides: [{
 		files: ['*.svelte'],
