@@ -107,7 +107,7 @@ const codeStyle = {
 	}],
 	'function-call-argument-newline': ['error', 'consistent'],
 	'function-paren-newline': ['error', 'consistent'],
-	'id-denylist': ['error', 'data', 'err', 'e', 'cb', 'callback'],
+	'id-denylist': ['error', 'e', 'cb', 'callback'],
 	'implicit-arrow-linebreak': ['error', 'beside'],
 	'indent': ['error', 'tab', {
 		SwitchCase: 1,
