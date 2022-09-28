@@ -228,7 +228,7 @@ module.exports = {
 			alias: {
 				map: [
 					// escape `$` to work around eslint's Regex matching
-					['\\$app', './.svelte-kit/runtime/app/'],
+					['\\$app', './node_modules/@sveltejs/kit/src/runtime/app/'],
 					['\\$lib', './src/lib/'],
 				],
 				extensions: ['.js', '.svelte', '.json'],
