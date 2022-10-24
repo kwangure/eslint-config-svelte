@@ -190,7 +190,6 @@ const es6 = {
 		destructuring: 'all',
 		ignoreReadBeforeAssign: false,
 	}],
-	'prefer-destructuring': 'error',
 	'prefer-rest-params': 'error',
 	'prefer-spread': 'error',
 	'prefer-template': 'error',
