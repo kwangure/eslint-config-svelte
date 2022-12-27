@@ -119,6 +119,7 @@ const codeStyle = {
 	'keyword-spacing': 'error',
 	'linebreak-style': 'error',
 	'max-len': ['error', {
+		code: 100,
 		ignoreComments: true,
 		ignoreRegExpLiterals: true,
 		ignoreTemplateLiterals: true,
