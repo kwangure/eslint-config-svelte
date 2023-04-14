@@ -207,6 +207,45 @@ const pluginImport = {
 	'import/no-duplicates': 'off',
 };
 
+const sortClassMembers = {
+	'sort-class-members/sort-class-members': [
+		2,
+		{
+			groups: {
+				'computed-methods': [{
+					type: 'method',
+					sort: 'alphabetical',
+					name: '/\\[.*\\]/',
+				}],
+				'methods': [{
+					type: 'method',
+					sort: 'alphabetical',
+				}],
+				'private-methods': [{
+					type: 'method',
+					private: true,
+					sort: 'alphabetical',
+				}],
+				'private-properties': [{
+					type: 'property',
+					private: true,
+					sort: 'alphabetical',
+				}],
+			},
+			order: [
+				'[private-properties]',
+				'[properties]',
+				'constructor',
+				'[private-methods]',
+				'[methods]',
+				'[computed-methods]',
+				'[everything-else]',
+			],
+			accessorPairPositioning: 'getThenSet',
+		},
+	],
+};
+
 module.exports = {
 	parserOptions: {
 		sourceType: 'module',
@@ -217,7 +256,7 @@ module.exports = {
 		es2017: true,
 		node: true,
 	},
-	plugins: ['import', 'svelte3'],
+	plugins: ['import', 'sort-class-members', 'svelte3'],
 	extends: [
 		'eslint:recommended',
 		'plugin:import/errors',
@@ -251,5 +290,6 @@ module.exports = {
 		...codeStyle,
 		...es6,
 		...pluginImport,
+		...sortClassMembers,
 	},
 };
