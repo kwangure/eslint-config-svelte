@@ -4,6 +4,7 @@
   "description": "An opinionated ESLint config for Svelte projects",
   "main": ".eslintrc.js",
   "scripts": {
+    "prepack": "rm -rf ./kwangure-eslint-*.tgz",
     "release": "release-it"
   },
   "dependencies": {

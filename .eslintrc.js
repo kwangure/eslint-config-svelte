@@ -249,11 +249,11 @@ const sortClassMembers = {
 module.exports = {
 	parserOptions: {
 		sourceType: 'module',
-		ecmaVersion: 2020,
+		ecmaVersion: 'latest',
 	},
 	env: {
 		browser: true,
-		es2017: true,
+		es2022: true,
 		node: true,
 	},
 	plugins: ['import', 'sort-class-members', 'svelte3'],
