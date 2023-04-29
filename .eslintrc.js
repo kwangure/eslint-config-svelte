@@ -205,6 +205,9 @@ const es6 = {
 
 const pluginImport = {
 	'import/no-duplicates': 'off',
+	// Typescript & build step already do this well enough
+	// Eslint needs custom configuring aliases & queries etc.
+	'import/no-unresolved': 'off',
 };
 
 const sortClassMembers = {
