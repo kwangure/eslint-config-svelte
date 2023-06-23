@@ -184,7 +184,7 @@ module.exports = {
 		es2022: true,
 		node: true,
 	},
-	plugins: ['import', 'sort-class-members', 'svelte3'],
+	plugins: ['import', 'sort-class-members', 'svelte3', 'prettier'],
 	extends: [
 		'eslint:recommended',
 		'plugin:import/errors',
