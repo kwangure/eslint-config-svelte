@@ -78,11 +78,6 @@ const variables = {
 	],
 };
 
-const starSpacingOption = {
-	before: false,
-	after: true,
-};
-
 // See https://eslint.org/docs/rules/#stylistic-issues
 const codeStyle = {
 	'func-style': ['error', 'declaration', {
@@ -103,7 +98,6 @@ const codeStyle = {
 
 const es6 = {
 	'arrow-body-style': ['error', 'as-needed'],
-	'generator-star-spacing': ['error', starSpacingOption],
 	'no-confusing-arrow': 'error',
 	'no-duplicate-imports': 'error',
 	'no-useless-computed-key': 'error',
@@ -124,7 +118,6 @@ const es6 = {
 	}],
 	'symbol-description': 'error',
 	'template-curly-spacing': 'error',
-	'yield-star-spacing': ['error', starSpacingOption],
 };
 
 const pluginImport = {
