@@ -175,49 +175,52 @@ const sortClassMembers = {
 };
 
 module.exports = {
-	parserOptions: {
-		sourceType: 'module',
-		ecmaVersion: 'latest',
-	},
-	env: {
-		browser: true,
-		es2022: true,
-		node: true,
-	},
-	plugins: ['import', 'sort-class-members', 'svelte3', 'prettier'],
-	extends: [
-		'eslint:recommended',
-		'plugin:import/errors',
-		'plugin:import/warnings',
-	],
-	settings: {
-		'import/resolver': {
-			alias: {
-				map: [
-					// escape `$` to work around eslint's Regex matching
-					['\\$app', './node_modules/@sveltejs/kit/src/runtime/app/'],
-					['\\$lib', './src/lib/'],
-				],
-				extensions: ['.js', '.svelte', '.json'],
-			},
-			node: {
-				extensions: ['.js'],
-				moduleDirectory: ['node_modules', './'],
-			},
-		},
-	},
-	ignorePatterns: ['*.css'],
-	overrides: [{
-		files: ['*.svelte'],
-		processor: 'svelte3/svelte3',
-	}],
-	rules: {
-		...possibleErrors,
-		...bestPractices,
-		...variables,
-		...codeStyle,
-		...es6,
-		...pluginImport,
-		...sortClassMembers,
-	},
+  parserOptions: {
+    sourceType: "module",
+    ecmaVersion: "latest",
+  },
+  env: {
+    browser: true,
+    es2022: true,
+    node: true,
+  },
+  plugins: ["import", "sort-class-members", "svelte3"],
+  extends: [
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "prettier",
+  ],
+  settings: {
+    "import/resolver": {
+      alias: {
+        map: [
+          // escape `$` to work around eslint's Regex matching
+          ["\\$app", "./node_modules/@sveltejs/kit/src/runtime/app/"],
+          ["\\$lib", "./src/lib/"],
+        ],
+        extensions: [".js", ".svelte", ".json"],
+      },
+      node: {
+        extensions: [".js"],
+        moduleDirectory: ["node_modules", "./"],
+      },
+    },
+  },
+  ignorePatterns: ["*.css"],
+  overrides: [
+    {
+      files: ["*.svelte"],
+      processor: "svelte3/svelte3",
+    },
+  ],
+  rules: {
+    ...possibleErrors,
+    ...bestPractices,
+    ...variables,
+    ...codeStyle,
+    ...es6,
+    ...pluginImport,
+    ...sortClassMembers,
+  },
 };
