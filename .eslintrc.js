@@ -48,7 +48,6 @@ const bestPractices = {
 	}],
 	'radix': ['error', 'as-needed'],
 	'require-await': 'error',
-	'wrap-iife': 'error',
 	'yoda': 'error',
 };
 
