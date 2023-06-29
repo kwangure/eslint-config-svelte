@@ -125,6 +125,7 @@ const pluginImport = {
 	// Eslint needs custom configuring aliases & queries etc.
 	'import/no-unresolved': 'off',
 	'import/named': 'off',
+	'import/namespace': 'off',
 };
 
 const sortClassMembers = {
