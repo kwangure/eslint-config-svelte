@@ -97,7 +97,6 @@ const codeStyle = {
 
 const es6 = {
 	'arrow-body-style': ['error', 'as-needed'],
-	'no-confusing-arrow': 'error',
 	'no-duplicate-imports': 'error',
 	'no-useless-computed-key': 'error',
 	'no-useless-constructor': 'error',
