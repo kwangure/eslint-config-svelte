@@ -176,11 +176,12 @@ module.exports = {
     es2022: true,
     node: true,
   },
-  plugins: ["import", "sort-class-members", "svelte3"],
+  plugins: ["import", "sort-class-members"],
   extends: [
     "eslint:recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
+	"plugin:svelte/recommended",
     "prettier",
   ],
   settings: {
@@ -203,7 +204,7 @@ module.exports = {
   overrides: [
     {
       files: ["*.svelte"],
-      processor: "svelte3/svelte3",
+      parser: "svelte-eslint-parser",
     },
   ],
   rules: {
